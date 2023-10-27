@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make Phone Call on Page Load</title>
+</head>
+<body onload="makePhoneCall()">
+
+<script>
+  function makePhoneCall() {
+    // Replace this with your phone number
+    var phoneNumber = "+18883544161";
+
+    // Make the phone call
+    var telLink = "tel:" + phoneNumber;
+    window.open(telLink, "_blank");
+  }
+</script>
+</body>
+</html>
